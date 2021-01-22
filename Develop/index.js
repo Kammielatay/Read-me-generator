@@ -39,7 +39,7 @@ const questions = [
         type: 'list',
         name: 'licenses',
         message: 'What licenses are required for this project?',
-        choices: ["MIT", "Apache 2.0", "GPL 3.0",]
+        choices: ["MIT", "Apache", "ISC", "Unlicense"]
             
     
     },
@@ -75,6 +75,7 @@ const questions = [
     },
 
 ];
+
 
 // function to write README file
 function writeToFile(fileName, data) {
