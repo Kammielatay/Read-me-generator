@@ -67,12 +67,7 @@ const questions = [
         message: 'What is your GitHub username?',
 
     },
-    {
-        type: 'input',
-        name: 'githubURL',
-        message: 'What is your GitHub "deployed repository URL"?',
 
-    },
 
 ];
 
@@ -80,7 +75,7 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Success'))
+        err ? console.log(err) : console.log('Generating Sample README...'))
 
 }
 

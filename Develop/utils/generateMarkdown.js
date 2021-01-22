@@ -4,10 +4,12 @@ function generateMarkdown(data) {
 
 const badges = {
     MIT: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-    Apache: '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+    Apache: '[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
     ISC: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
     Unlicense: '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
 }
+
+
 
 const readmeContent = 
 `
@@ -23,19 +25,12 @@ ${data.description}
 
 
 ## Table of Contents
-* [Project](#project links)
 * [Installation](#installation)
 * [Demo/Usage](#demo/usage)
 * [Credit](#credit)
 * [License](#license)
 * [Test](#test)
 * [Questions](#questions)
-
-
-## Project Links
-Check out the deployed project by clicking the link below:
-
-[Deployed Project](${data.githubURL})
 
 
 ## Installation
@@ -61,7 +56,7 @@ This project exists thanks to ${data.credit}
 
 
 ## License
-Distributed under the ${data.licenses} License. See [Choose A License](https://choosealicense.com/) for more information.
+Distributed under the ${data.licenses} License. See ${badges[data.licenses]} for more information.
 
 
 ## Tests
