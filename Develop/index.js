@@ -69,13 +69,14 @@ const questions = [
     },
 
 
+
 ];
 
 
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Generating Sample README...'))
+        err ? console.log(err) : console.log('Success'))
 
 }
 

@@ -4,11 +4,10 @@ function generateMarkdown(data) {
 
 const badges = {
     MIT: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-    Apache: '[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+    Apache: '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
     ISC: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
     Unlicense: '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
 }
-
 
 
 const readmeContent = 
@@ -48,7 +47,7 @@ ${data.install}
 
 ## Demo/Usage
 
-[demo](./assets/images/${data.demo})
+[demo](../assets/images/${data.demo}.gif)
 
 
 ## Credit
@@ -69,7 +68,7 @@ ${data.tests}
 
 
 ### Questions
-If you have any questions, please reach out to [${data.github}](https://github.com/${data.github})
+If you have any questions, please reach out to [${data.github}](https://github.com/${data.github}) or contact at ${data.questions}
 `
 
 return readmeContent;

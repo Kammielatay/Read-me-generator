@@ -1,17 +1,16 @@
 
-# kasdjf
+# Professional README.md
 
 ![last-commit](https://img.shields.io/github/last-commit/Kammielatay/read-me-generator)
 ![issues](https://img.shields.io/github/issues/Kammielatay/read-me-generator)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Description
-kajd
+In this application, from the command-line, you can quickly and easily create a well-crafted README.md that allows you to showcase and present your application to other developers and potential employers. Simply answer a few questions using the Inquirer package for Node.js and spend more time working on your application than on the README.md
 
 
 ## Table of Contents
-* [Project](#project)
 * [Installation](#installation)
 * [Demo/Usage](#demo/usage)
 * [Credit](#credit)
@@ -20,46 +19,40 @@ kajd
 * [Questions](#questions)
 
 
-### Project
-Check out the deployed project by clicking the link below:
-
-[Deployed Project](kasjd)
-
-
-### Installation
+## Installation
 Clone this repositiory:
 
 ```
-git clone aksdj
+git clone https://github.com/Kammielatay/read-me-generator.git
 ```
 
 Open in Integrated Terminal and run the code below:
 ```
-ksd
+node install
 ```
 
 
-### Demo/Usage
+## Demo/Usage
 
-[demo](./assets/images/kjad)
-
-
-### Credit
-This project exists thanks to 
+![demo](../assets/images/node-movie.gif)
 
 
-### License
-Distributed under the Apache License. See [Choose A License](https://choosealicense.com/) for more information.
+## Credit
+This project exists thanks to Kammie Ingram
 
 
-### Tests
+## License
+Distributed under the MIT License. See [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) for more information.
+
+
+## Tests
 
 Open in Integrated Terminal and run the code below:
 
 ```
-skdjf;
+node index.js
 ```
 
 
 ### Questions
-If you have any questions, please reach out to [kdsfj](https://github.com/kdsfj)
+If you have any questions, please reach out to [Kammielatay](https://github.com/Kammielatay) or contact at kameshialatay@gmail.com
