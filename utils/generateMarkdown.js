@@ -6,6 +6,9 @@ const readmeContent =
 `
 # ${data.title}
 
+[](https://img.shields.io/github/license/Kammielatay/read-me-generator)
+
+
 ## Description
 ${data.description}
 
@@ -21,15 +24,21 @@ ${data.description}
 
 ---
 ### Project Links
+Check out the deployed project by clicking the link below:
+
 [Deployed Project](${data.githubURL})
-[GitHub URL](${data.github})
 
 ---
 ### Installation
 Clone this repositiory:
 
 \`\`\`
-git clone [${data.installation}](${data.installation})
+git clone ${data.installation}
+\`\`\`
+
+Open in Integrated Terminal and run the code below:
+\`\`\`
+${data.install}
 \`\`\`
 
 ---
@@ -37,15 +46,13 @@ git clone [${data.installation}](${data.installation})
 
 [demo](./assets/images/${data.demo})
 
-${data.usage}
-
 ---
 ### Credit
 This project exists thanks to ${data.credit}
 
 ---
 ### License
-Distributed under the ${data.license} License. See [Choose A License](https://choosealicense.com/) for more information.
+Distributed under the ${data.licenses} License. See [Choose A License](https://choosealicense.com/) for more information.
 
 ---
 ### Tests
@@ -53,13 +60,12 @@ Distributed under the ${data.license} License. See [Choose A License](https://ch
 Open in Integrated Terminal and run the code below:
 
 \`\`\`
-npm install
-node index.js
+${data.tests}
 \`\`\`
 
 ---
 ### Questions
-If you have any questions, please reach out to [${data.questions}](${data.questions}).
+If you have any questions, please reach out to [${data.github}](https://github.com/${data.github})
 `
 
 return readmeContent;

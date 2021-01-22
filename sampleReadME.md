@@ -1,8 +1,12 @@
 
-# Help me
+# kasj
+
+[](https://img.shields.io/github/license/Kammielatay/read-me-generator)
+
+
 
 ## Description
-aksdfuiasf
+alkdsjf
 
 ---
 ### Table of Contents
@@ -16,27 +20,31 @@ aksdfuiasf
 
 ---
 ### Project Links
-[Deployed Project](aksdfgh)
-[GitHub URL](jasfhd)
+Check out the deployed project by clicking the link below:
+
+[Deployed Project](akjsdf)
 
 ---
 ### Installation
 Clone this repositiory:
 
 ```
-git clone [dskaguiagf](dskaguiagf)
+git clone asdkjf
+```
+
+Open in Integrated Terminal and run the code below:
+```
+aldksf
 ```
 
 ---
 ### Demo/Usage
 
-[demo](./assets/images/alkdsf)
-
-kajgh
+[demo](./assets/images/ad)
 
 ---
 ### Credit
-This project exists thanks to asjdf
+This project exists thanks to lkasdjf
 
 ---
 ### License
@@ -48,9 +56,9 @@ Distributed under the MIT License. See [Choose A License](https://choosealicense
 Open in Integrated Terminal and run the code below:
 
 ```
-git install \n node index.js
+akld
 ```
 
 ---
 ### Questions
-If you have any questions, please reach out to [alsjdf](alsjdf).
+If you have any questions, please reach out to [kajdf](https://github.com/kajdf)

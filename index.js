@@ -14,13 +14,19 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Add a short description of the project?',
+        message: 'Add a brief description of the project?',
 
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What is the installation process?',
+        message: 'What is the installation process? (clone URL)',
+
+    },
+    {
+        type: 'input',
+        name: 'install',
+        message: 'What command should be used to run depencencies?',
 
     },
     {
@@ -30,17 +36,12 @@ const questions = [
 
     },
     {
-        type: 'input',
-        name: 'usage',
-        message: 'How will this project be used?',
-
-    },
-    {
         type: 'list',
-        name: 'license',
+        name: 'licenses',
         message: 'What licenses are required for this project?',
-        choices: ['MIT', 'GNU', 'ISC'],
-       
+        choices: ["MIT", "Apache 2.0", "GPL 3.0",]
+            
+    
     },
     {
         type: 'input',
@@ -51,7 +52,7 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: 'How can users test this project?',
+        message: 'What command line should be ran in order to run a test?',
 
     },
     {
@@ -63,7 +64,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub URL?',
+        message: 'What is your GitHub username?',
 
     },
     {
