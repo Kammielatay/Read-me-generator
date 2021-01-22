@@ -19,14 +19,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'table-of-contents',
-        message: 'Please provide content for the table of content?',
+        name: 'installation',
+        message: 'What is the installation process?',
 
     },
     {
         type: 'input',
-        name: 'installation',
-        message: 'What is the installation process?',
+        name: 'demo',
+        message: 'Please enter your demo file name?',
 
     },
     {
@@ -36,27 +36,40 @@ const questions = [
 
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'What licenses are required for this project?',
-
+        choices: ['MIT', 'GNU', 'ISC'],
+       
     },
     {
         type: 'input',
-        name: 'contributing',
-        message: 'Who were the contributors',
+        name: 'credit',
+        message: 'Who were the contributors?',
 
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'How can users test this project',
+        message: 'How can users test this project?',
 
     },
     {
         type: 'input',
         name: 'questions',
         message: 'Where should people contact you for questions?',
+
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub URL?',
+
+    },
+    {
+        type: 'input',
+        name: 'githubURL',
+        message: 'What is your GitHub "deployed repository URL"?',
 
     },
 
@@ -71,8 +84,8 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(response => 
-        writeToFile('README.md', generateMarkdown(response)));
+    inquirer.prompt(questions).then(data => 
+        writeToFile('sampleReadME.md', generateMarkdown(data)));
 
 }
 
